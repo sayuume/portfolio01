@@ -1,0 +1,85 @@
+/* ============================================================
+   extracted.css
+   index.html のインラインスタイルから分離したスタイル
+   ============================================================ */
+
+
+/* ----------------------------------------------------------
+   ワークカード：リンク要素の共通スタイル
+   ---------------------------------------------------------- */
+a.work-card {
+  text-decoration: none;
+  display: block;
+}
+
+
+/* ----------------------------------------------------------
+   サムネイル：大・中カード（min-height 320px）
+   ---------------------------------------------------------- */
+.work-card--large .thumb-placeholder {
+  background: #1A1714;
+  min-height: 320px;
+}
+
+.work-card--medium .thumb-placeholder {
+  background: #141A14;
+  min-height: 320px;
+}
+
+
+/* ----------------------------------------------------------
+   サムネイル：小カード共通 + 個別背景色
+   ---------------------------------------------------------- */
+.thumb-placeholder--small {
+  min-height: 220px;
+}
+
+.thumb-placeholder--banner    { background: #1A1510; }
+.thumb-placeholder--illust    { background: #10151A; }
+.thumb-placeholder--asaborake { background: #16141A; }
+.thumb-placeholder--yamada    { background: #141A16; }
+
+
+/* ----------------------------------------------------------
+   ヤマダ物流カード内「SELF-INITIATED」ラベル
+   ---------------------------------------------------------- */
+.self-initiated-tag {
+  font-size: .55rem;
+  letter-spacing: .15em;
+  color: var(--border);
+}
+
+
+/* ----------------------------------------------------------
+   バナーモーダル：プレースホルダー共通
+   ---------------------------------------------------------- */
+.banner-placeholder {
+  background: var(--bg);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .65rem;
+  letter-spacing: .15em;
+  color: var(--border);
+  text-transform: uppercase;
+}
+
+
+/* ----------------------------------------------------------
+   イラストモーダル：説明文
+   ---------------------------------------------------------- */
+.illust-modal-desc {
+  font-size: .82rem;
+  color: var(--muted);
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+
+/* ----------------------------------------------------------
+   モーダルノート（イラストモーダル内）
+   ---------------------------------------------------------- */
+.modal-note--illust {
+  margin-top: 16px;
+}
