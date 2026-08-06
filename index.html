@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="ポートフォリオサイトです。Web制作の実績や作品を掲載しています。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ポートフォリオ">
+  <meta property="og:description" content="Web制作の実績や作品を掲載しているポートフォリオサイトです。">
+  <meta property="og:site_name" content="ポートフォリオ">
+
+  <title>ポートフォリオ</title>
+
+  <!-- フォント -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&family=DM+Sans:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- CSS/リセット・スタイル -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- ファビコン -->
+  <link rel="shortcut icon" href="img/fav.ico">
+</head>
+
+<body>
+
+  <header>
+    <h1>
+      <a href="index.html" class="nav_logo">portfolio</a>
+    </h1>
+    <nav>
+      <ul class="nav_links">
+        <li><a href="#works">Works</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ヒーロー -->
+  <section class="hero">
+    <div class="hero_left">
+      <h2 class="hero_name">
+        <span>portfolio</span>
+        ポートフォリオサイト
+      </h2>
+      <p class="hero_desc">
+        デジタルでの創作活動をきっかけにWebやデザインに興味を持ち、CADオペレーターを辞してWebデザイナーとして就職することを決める。現在はユーザー視点を第一に考え抜くデザイナーを目標に旅行会社インハウスデザイナーとして従事している。
+      </p>
+      <div class="hero_tags">
+        <span class="hero_tag highlight">AEM経験</span>
+        <span class="hero_tag highlight">HTML / CSS / jQuery</span>
+        <span class="hero_tag">イラスト制作</span>
+        <span class="hero_tag">Clip Studio 検定取得</span>
+      </div>
+      <div class="hero_scroll">
+        <div class="hero_scroll_line"></div>
+        Scroll
+      </div>
+    </div>
+
+    <div class="hero_right">
+      <div class="hero_art">
+        <div class="hero_art_placeholder">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WORKS ===== -->
+  <section class="works" id="works">
+
+    <div class="section_header reveal">
+      <h2 class="section_title">Works</h2>
+      <span class="section_count">06 projects</span>
+    </div>
+    <div class="grid_row_1 reveal">
+
+      <!-- 旅行予約サービス -->
+      <article class="work_card work_card__large">
+        <a href="works_web5.html">
+          <div class="thumb_placeholder">
+            <img src="img/works-thumb10.jpg" width="841" alt="旅行予約サービス 季節の特集ページサムネイル">
+          </div>
+          <div class="work_card_info">
+            <p class="work_card_tag">実務 — 2025 / 2026</p>
+            <h3 class="work_card_title">旅行予約サービス 季節の特集ページ</h3>
+            <p class="work_card_sub">デザイン / コーディング / AEM</p>
+          </div><!-- .work_card_info -->
+        </a>
+      </article>
+
+      <!-- はまルカ -->
+      <article class="work_card work_card__medium">
+        <a href="works_web3.html">
+          <div class="thumb_placeholder">
+            <img src="img/works-thumb1.jpg" width="526" alt="はまルカのおうちサムネイル">
+          </div>
+          <div class="work_card_info">
+            <p class="work_card_tag">自主制作 — 2024</p>
+            <h3 class="work_card_title">はまルカのおうち</h3>
+            <p class="work_card_sub">企画 / デザイン / コーディング / イラスト</p>
+          </div><!-- .work_card_info -->
+        </a>
+      </article>
+
+    </div><!-- .grid_row_1 -->
+    <!-- バナー＋イラスト＋自主制作 -->
+    <div class="grid_row_2 reveal">
+
+      <!-- バナー（モーダル） -->
+      <div class="work_card work_card__small" id="card-banner">
+        <div class="thumb_placeholder thumb_placeholder__small thumb_placeholder__banner">
+          <img src="img/bnr_5.jpg" alt="スーパー おせちご予約バナー">
+        </div>
+        <span class="modal_badge">Gallery</span>
+        <div class="work_card_info">
+          <p class="work_card_tag">実務 — 2025-2026</p>
+          <h3 class="work_card_title">Banner Works</h3>
+          <p class="work_card_sub">3点 — 旅行 / 引越し / スーパー</p>
+        </div>
+      </div>
+
+      <!-- イラスト（モーダル） -->
+      <div class="work_card work_card__small" id="card-illust">
+        <div class="thumb_placeholder thumb_placeholder__small thumb_placeholder__illust">
+          <img src="img/icon1.jpg" alt="">
+        </div>
+        <span class="modal_badge">Gallery</span>
+        <div class="work_card_info">
+          <p class="work_card_tag">個人依頼 — 2023</p>
+          <h3 class="work_card_title">Illustration Works</h3>
+          <p class="work_card_sub">イラスト個人依頼実績</p>
+        </div>
+      </div>
+
+      <!-- 朝ぼらけ -->
+      <article>
+        <a href="works_web2.html" class="work_card work_card__small">
+          <div class="thumb_placeholder">
+            <img src="img/works-thumb2.jpg" width="455" alt="">
+          </div>
+          <div class="work_card_info">
+            <p class="work_card_tag">自主制作 — 2024</p>
+            <h3 class="work_card_title">箱根温泉 朝ぼらけ</h3>
+            <p class="work_card_sub">企画 / デザイン / コーディング</p>
+          </div>
+        </a>
+      </article>
+      <!-- ヤマダ物流 -->
+      <article>
+        <a href="works_web1.html" class="work_card work_card__small">
+          <div class="thumb_placeholder thumb_placeholder__small thumb_placeholder__yamada">
+            <img src="img/works-thumb3.jpg" alt="">
+          </div>
+          <div class="work_card_info">
+            <p class="work_card_tag">自主制作 — 2024</p>
+            <h3 class="work_card_title">ヤマダ物流</h3>
+            <p class="work_card_sub">企画 / デザイン / コーディング</p>
+          </div>
+        </a>
+      </article>
+    </div><!-- .grid_row_2 -->
+
+    <!-- ケーススタディ -->
+    <article class="featured reveal">
+      <div>
+        <p class="featured_label">Featured Case Study — Self-Initiated</p>
+        <h3 class="featured_title">はまルカのおうち<br>キャラクターWebサイト</h3>
+        <p class="featured_body">
+          架空のキャラクター「はまルカ」の公式サイトを<strong>企画から一人で完結</strong>。ペルソナの設計・情報設計・デザイン・コーディング・オリジナルイラスト制作まで全工程を担当。グッズ購入・利用申請という<strong>複数CVへの導線設計</strong>と、ファン・新規・企業という異なるユーザーへの対応に応える設計を考え抜いた。
+        </p>
+        <div class="featured_chips">
+          <span class="chip">ペルソナ設計</span>
+          <span class="chip">情報設計</span>
+          <span class="chip">デザインカンプ</span>
+          <span class="chip">SCSS</span>
+          <span class="chip">jQuery</span>
+          <span class="chip">アニメーション</span>
+          <span class="chip">イラスト制作</span>
+          <span class="chip">ロゴ</span>
+        </div>
+        <a href="works_web3.html" class="featured_link">ケーススタディを見る →</a>
+      </div>
+      <div class="featured_visual">
+        <img src="img/dc3.jpg" alt="はまルカのおうち">
+        <p class="featured_visual_placeholder">はまルカのおうち</p>
+      </div>
+    </article>
+
+  </section>
+  <!--  Studies  -->
+  <section class="studies" id="studies">
+
+    <div class="section_header reveal">
+      <h2 class="section_title">Studies</h2>
+    </div>
+    <div class="studies_grid reveal">
+
+      <article class="studies_inner">
+        <h3 class="studies_title">Dessin</h3>
+        <div class="studies_card">
+          <div class="studies_card__innner">
+            <p>
+              絵画教室にて2025年3月から継続。
+              観察力・立体把握・光と影の表現を鍛えることを目的に、
+              週1回のペースで通い、月1〜2点のペースで作品を完成させた。
+              デザイナーとしての見る力を育てるための学習記録。
+            </p>
+            <div><img src="img/dessin20250426.jpg" alt="剥製のデッサン"></div>
+          </div>
+          <p class="links"><a class="studies_link" href="studies1.html">詳しく見る</a></p>
+        </div>
+      </article>
+
+      <article class="studies_inner">
+        <h3 class="studies_title">UI Analysis</h3>
+        <div class="studies_card">
+          <div class="studies_card__innner">
+            <p>
+              普段の生活での不便を解消する方法を考える。誰のためにデザインがあるのか。ユーザーにわかりやすく親切な設計をモットーとしたいため日々研究を重ねる。
+            </p>
+            <div><img src="img/ui_a.jpg" alt="旅行会社比較分析の画像"></div>
+          </div>
+          <p class="links"><a class="studies_link" href="https://www.figma.com/proto/7iOAwAsIaIzOGjE3Id0G3K/UI%E5%88%86%E6%9E%90_%E6%97%85%E8%A1%8C%E4%BA%88%E7%B4%84%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E5%B0%8E%E7%B7%9A%E6%AF%94%E8%BC%83?node-id=1-2&p=f&t=YngbXYmSL5ac5YvD-1&scaling=contain&content-scaling=fixed&page-id=0%3A1" target="_blank" rel="noopener">詳しく見る</a></p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+<!-- バナーモーダル -->
+<div class="modal_overlay" id="modal-banner">
+  <div class="modal">
+    <div class="modal_header">
+      <h2 class="modal_title">Banner Works</h2>
+      <button class="modal_close">✕</button>
+    </div>
+    <div class="modal_body">
+      <p class="modal_note">
+        <strong>※ 掲載にあたって</strong> クライアント名・ブランド名は掲載不可のため一部ぼかし処理を行っています。
+      </p>
+      <ul class="banner_gallery">
+        <li class="banner_item">
+          <img src="img/bnr_8.jpg" alt="旅行予約サービス バナー">
+          <div class="banner_item_info">
+            <div>
+              <p class="banner_item_label">実務 — 2025</p>
+              <p class="banner_item_title">旅行予約サービス バナー</p>
+            </div>
+            <p class="banner_item_scope">Design</p>
+          </div>
+        </li>
+        <li class="banner_item">
+          <img src="img/bnr_6.jpg" alt="単身定額サービス バナー">
+          <div class="banner_item_info">
+            <div>
+              <p class="banner_item_label">実務 — 2025（制作会社）</p>
+              <p class="banner_item_title">引越し業者 単身定額サービス バナー</p>
+            </div>
+            <p class="banner_item_scope">Design</p>
+          </div>
+        </li>
+        <li class="banner_item">
+          <img src="img/bnr_5.jpg" alt="おせち バナー">
+          <div class="banner_item_info">
+            <div>
+              <p class="banner_item_label">実務 — 2024（制作会社）</p>
+              <p class="banner_item_title">スーパー おせちご予約バナー</p>
+            </div>
+            <p class="banner_item_scope">Design</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- イラストモーダル -->
+<div class="modal_overlay" id="modal-illust">
+  <div class="modal">
+    <div class="modal_header">
+      <h2 class="modal_title">Illustration Works</h2>
+      <button class="modal_close">✕</button>
+    </div>
+    <div class="modal_body">
+      <p class="illust_modal_desc">
+        個人依頼によるSNS用アイコンイラスト制作実績（2023年）。<br>お客様にはどのような要望があるのか詳しくヒアリングを行い、クライアントワークを学んだ。
+      </p>
+      <ul class="illust_gallery">
+        <li class="illust_item"><img src="img/icon1.jpg" alt="イラスト実績1"></li>
+        <li class="illust_item"><img src="img/icon2.jpg" alt="イラスト実績2"></li>
+        <li class="illust_item"><img src="img/icon3.jpg" alt="イラスト実績3"></li>
+        <li class="illust_item"><img src="img/icon4.jpg" alt="イラスト実績4"></li>
+        <li class="illust_item"><img src="img/icon5.jpg" alt="イラスト実績5"></li>
+        <li class="illust_item"><img src="img/icon9.jpg" alt="イラスト実績6"></li>
+      </ul>
+      <p class="modal_note modal_note__illust">
+        <strong>※使用ツール</strong>｜Procreate
+      </p>
+    </div>
+  </div>
+</div>
+  <!-- About -->
+  <section class="about" id="about">
+      <h2 class="section_title">About</h2>
+      <div class="reveal">
+        <div class="about_body">
+          <p>
+            接客・CADオペレーターの業務を経てWebデザイナーへ。<strong>異なる領域での実務経験</strong>がユーザーの多様性を解像度高く捉える視点を育てたと考える。
+          </p>
+          <p>現在は旅行予約サービスにて、<strong>AEM（Adobe Experience
+              Manager）</strong>を用いた特集ページ制作・バナー制作・サイト運用を担当。大規模サービスの制作フローを日常として扱う。
+          </p>
+          <p>プライベートでは<strong>創作活動</strong>も行っており、 Webサイト制作を通して生んだキャラクターの絵本やグッズなども制作。
+          </p>
+        </div>
+        <div class="about_highlight">
+          <p class="about_highlight_text">
+            「目にする<strong>すべてのもの</strong>がデザインされている」という当たり前のことに気づき、デザインの道を志した。
+          </p>
+          <p class="about_highlight_text">その中でWebを選んだのは、より多くの方の目に触れる機会が多く、人の生活や幸せに直接繋がる実感を持てると考えたためである。</p>
+        </div>
+      </div>
+  </section>
+
+  <footer>
+    <span>©  portfolio</span>
+    <span>Web Designer</span>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
